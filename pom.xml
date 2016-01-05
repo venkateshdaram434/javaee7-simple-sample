@@ -138,13 +138,16 @@
             </build>
         </profile>
     </profiles>
-<settings>
-<servers>
-    <server>
-      <id>SomeRepo</id>
-      <username>SomeUN</username>
-      <password>SomePW</password>
-    </server>
-</servers>
-</settings>
+<settings>  
+ <servers>  
+  <server>  
+   <id>deployment</id>  
+   <username>admin</username>  
+   <password>admin123</password>  
+  </server>  
+ </servers>  
+ <activeProfiles>
+     <activeProfile>deployment</activeProfile>
+   </activeProfiles>
+</settings> 
 </project>
