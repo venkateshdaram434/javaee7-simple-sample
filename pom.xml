@@ -138,4 +138,13 @@
             </build>
         </profile>
     </profiles>
+<settings>
+<servers>
+    <server>
+      <id>SomeRepo</id>
+      <username>SomeUN</username>
+      <password>SomePW</password>
+    </server>
+</servers>
+</settings>
 </project>
