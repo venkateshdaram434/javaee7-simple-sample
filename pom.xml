@@ -5,7 +5,7 @@
     <artifactId>javaee7-simple-sample</artifactId>
     <version>1.13-SNAPSHOT</version>
     <packaging>war</packaging>
-    <name>javaee7-simple-sample-${buildNumber}</name>
+    <name>javaee7-simple-sample-${build.number}</name>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
