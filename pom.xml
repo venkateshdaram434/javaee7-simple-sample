@@ -64,7 +64,7 @@
                     <artifactId>maven-release-plugin</artifactId>
                     <version>2.5.1</version>
                     <configuration>
-                        <tagNameFormat>v@{project.version}</tagNameFormat>
+                        <tagNameFormat>v@{project.version}-1</tagNameFormat>
                         <autoVersionSubmodules>true</autoVersionSubmodules>
                         <!-- do not release profile from Maven super pom -->
                         <useReleaseProfile>false</useReleaseProfile>
