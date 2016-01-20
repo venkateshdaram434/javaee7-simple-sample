@@ -42,7 +42,7 @@
         </snapshotRepository>
     </distributionManagement>
     <build>
-    	<finalName>javaee7-simple-sample-venkat</finalName>
+    	<finalName>javaee7-simple-sample-${buildNumber}</finalName>
         <pluginManagement>
             <plugins>
                 <plugin>
